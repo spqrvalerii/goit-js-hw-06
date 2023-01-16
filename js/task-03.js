@@ -21,7 +21,7 @@ galleryElem.style.gap = '10px';
 console.log(galleryElem);
 
 const imagesElem = images.map(image => {
-  return `<li class="gallery__item"><img class="gallery__img" src="${image.url}" alt="${image.alt}"/>`
+  return `<li class="gallery__item"><img class="gallery__img" src="${image.url}" width='800' alt="${image.alt}"/>`
 }).join("");
 console.log(imagesElem);
   
